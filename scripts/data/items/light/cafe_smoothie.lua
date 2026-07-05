@@ -1,0 +1,34 @@
+local item, super = Class(Item, "light/cafe_smoothie")
+
+function item:init(inventory)
+    super.init(self)
+
+    -- Display name
+    self.name = "Café Smoothie"
+
+    -- Item type (item, key, weapon, armor)
+    self.type = "item"
+    -- Whether this item is for the light world
+    self.light = true
+
+    self.description = "A smoothie the size of your head."
+
+    self.check = "A smoothie\nthe size of your head. [wait:5]How do you even drink all of this?"
+
+    self.usable_in = "all"
+    self.result_item = nil
+
+	self.becca_shop = true
+end
+
+function item:onWorldUse()
+	Game.world:startCutscene("mall","becca_eat", "smoothie")
+    return true
+end
+
+function item:onToss()
+    Game.world:startCutscene("mall","becca_drop")
+    return false
+end
+
+return item

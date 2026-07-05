@@ -1,0 +1,38 @@
+{
+    "id": "mallmod",
+    "name": "MallMod",
+    "subtitle": "A crossover nobody asked for (By slimestuff.)",
+
+    "version": "v1.0.0",
+    "engineVer": "v0.11.0-dev",
+
+    "chapter": 4,
+
+    "map": "spawn",
+
+    "party": ["kris"],
+
+    "inventory": {
+        "items": [],
+        "key_items": ["cell_phone"]
+    },
+
+    "equipment": {
+        "kris": {
+            "weapon": "light/pencil",
+            "armor": ["light/bandage"]
+        }
+    },
+
+    "hardReset": false,
+
+    "hidden": false,
+
+    "setWindowTitleAndIcon": null,
+
+    "config": {
+        "kristal": {}
+    },
+
+    "dev": true
+}
