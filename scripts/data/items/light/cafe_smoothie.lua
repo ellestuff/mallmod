@@ -1,4 +1,4 @@
-local item, super = Class(Item, "light/cafe_smoothie")
+local item, super = Class(Item)
 
 function item:init(inventory)
     super.init(self)

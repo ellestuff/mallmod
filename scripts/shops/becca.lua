@@ -24,6 +24,8 @@ function Becca:init()
     self.talk_text = "What's up?"
 	self.buy_no_space_text = "Eat what you have first."
 
+	self:registerItem("light/cafe_burger",{price=0})
+	self:registerItem("light/cafe_pizza",{price=0})
 	self:registerItem("light/cafe_cupcake",{price=0})
 	self:registerItem("light/cafe_smoothie",{price=0})
 end

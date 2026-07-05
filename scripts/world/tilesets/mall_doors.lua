@@ -8,10 +8,10 @@ return {
   tileheight = 40,
   spacing = 0,
   margin = 0,
-  columns = 7,
+  columns = 10,
   image = "../../../assets/sprites/tilesets/mall_doors.png",
-  imagewidth = 280,
-  imageheight = 240,
+  imagewidth = 400,
+  imageheight = 320,
   objectalignment = "unspecified",
   tilerendersize = "tile",
   fillmode = "stretch",
@@ -26,6 +26,6 @@ return {
   },
   properties = {},
   wangsets = {},
-  tilecount = 42,
+  tilecount = 80,
   tiles = {}
 }
