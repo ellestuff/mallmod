@@ -251,10 +251,10 @@ return {
 		end
 		Game.world:addChild(transition)
 
-		cutscene:wait(function() return transition.con == 33 and math.floor(transition.timer) >= 30 end)
+		--[[cutscene:wait(function() return transition.con == 33 and math.floor(transition.timer) >= 30 end)
 		transition.character_data[3].x = 55
 		transition.character_data[2].x = 100
-		transition.character_data[1].x = 145
+		transition.character_data[1].x = 145]]
 
 		cutscene:wait(function() return done end)
 		Kristal.Console:log("Done")
