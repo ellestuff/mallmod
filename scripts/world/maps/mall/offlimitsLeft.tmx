@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.11" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="14" nextobjectid="99">
+ <editorsettings>
+  <export target="offlimitsLeft.lua" format="lua"/>
+ </editorsettings>
+ <properties>
+  <property name="light" type="bool" value="true"/>
+  <property name="music" value="alley_ambience"/>
+ </properties>
+ <tileset firstgid="1" source="../../tilesets/mall.tsx"/>
+ <tileset firstgid="57" source="../../tilesets/mall_doors.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,
+0,30,30,30,9,9,9,9,9,9,9,43,43,43,9,9,
+0,37,30,30,9,9,9,9,9,9,9,44,43,50,9,9,
+0,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,
+0,30,30,30,30,37,30,30,30,30,30,30,30,30,37,30,
+0,29,29,29,29,29,36,29,29,29,29,29,29,29,29,29,
+0,36,29,29,29,29,29,29,29,29,29,36,29,29,29,29,
+0,29,29,29,36,29,29,29,29,29,29,29,29,29,29,36,
+0,29,29,29,29,29,29,29,29,36,29,29,29,29,29,29,
+0,30,30,37,37,30,30,30,30,30,30,30,30,37,30,30,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="12" name="b" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,41,0,0,0,0,0,0,0,0,0,41,
+0,6,6,6,0,41,0,0,0,0,0,92,92,92,0,41,
+0,13,13,13,0,41,0,0,0,0,0,92,92,92,0,41,
+0,0,0,0,0,48,0,0,0,0,0,0,0,0,0,48,
+0,0,0,0,0,55,0,0,0,0,0,0,0,0,0,55,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="11" name="a" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,125,126,127,0,0,90,91,0,0,0,6,6,6,0,0,
+0,136,137,138,0,0,101,102,123,124,0,13,13,13,0,0,
+0,0,0,0,0,0,112,113,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="decal" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+0,13,13,13,13,13,13,13,13,13,13,125,126,127,13,13,
+0,0,0,0,0,0,0,0,0,0,0,136,137,138,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="floormirror" class="objects" locked="1">
+  <object id="88" name="floormirror" x="40" y="200" width="600" height="240"/>
+ </objectgroup>
+ <objectgroup color="#0000ff" id="6" name="collision">
+  <object id="61" x="200" y="160" width="440" height="40"/>
+  <object id="63" x="160" y="440" width="480" height="40"/>
+  <object id="77" x="160" y="200" width="40" height="40"/>
+  <object id="90" x="150" y="240" width="40" height="40"/>
+  <object id="91" x="140" y="280" width="40" height="40"/>
+  <object id="92" x="130" y="320" width="40" height="40"/>
+  <object id="93" x="120" y="360" width="40" height="40"/>
+  <object id="94" x="110" y="400" width="40" height="40"/>
+ </objectgroup>
+ <objectgroup color="#ff00ff" id="10" name="objects_behind">
+  <object id="83" name="npc" x="150" y="420" width="40" height="40">
+   <properties>
+    <property name="actor" value="tapewest"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff00ff" id="8" name="objects">
+  <object id="64" name="interactable" x="280" y="160" width="80" height="40">
+   <properties>
+    <property name="text1_1">* (It's locked.)[wait:5]
+* (Probably for the better.)</property>
+   </properties>
+  </object>
+  <object id="65" name="interactable" x="360" y="160" width="80" height="40">
+   <properties>
+    <property name="text1" value="* (Whoever's name was here before has been scribbled out beyond recognition.)"/>
+    <property name="text2">* (&quot;Cheshire's Home. [wait:5]Stay out.&quot; [wait:5]
+is written over it.)</property>
+   </properties>
+  </object>
+  <object id="66" name="npc" x="480" y="200" width="40" height="40">
+   <properties>
+    <property name="actor" value="bench/down"/>
+    <property name="cutscene" value="generic.bench"/>
+   </properties>
+  </object>
+  <object id="67" name="npc" x="400" y="200" width="40" height="40">
+   <properties>
+    <property name="actor" value="plant"/>
+    <property name="cutscene" value="generic.plant"/>
+   </properties>
+  </object>
+  <object id="68" name="npc" x="80" y="200" width="40" height="40">
+   <properties>
+    <property name="actor" value="bench/down"/>
+    <property name="cutscene" value="generic.bench"/>
+   </properties>
+  </object>
+  <object id="71" name="transition" x="640" y="200" width="40" height="240">
+   <properties>
+    <property name="map" value="mall/spawn"/>
+    <property name="marker" value="left"/>
+   </properties>
+  </object>
+  <object id="84" name="npc" x="280" y="420" width="40" height="40">
+   <properties>
+    <property name="actor" value="bench/bottom"/>
+    <property name="cutscene" value="generic.bench"/>
+   </properties>
+  </object>
+  <object id="85" name="npc" x="360" y="420" width="40" height="40">
+   <properties>
+    <property name="actor" value="plant"/>
+    <property name="cutscene" value="generic.plant"/>
+   </properties>
+  </object>
+  <object id="86" name="interactable" x="480" y="440" width="80" height="40">
+   <properties>
+    <property name="text1_1" value="* (It's locked.)"/>
+   </properties>
+  </object>
+  <object id="87" name="interactable" x="400" y="440" width="80" height="40">
+   <properties>
+    <property name="text1_1" value="* (&quot;Vacant.&quot;)"/>
+   </properties>
+  </object>
+  <object id="89" name="darkness" x="40" y="40">
+   <point/>
+  </object>
+  <object id="98" name="interactable" x="110" y="400" width="40" height="40">
+   <properties>
+    <property name="text1" value="* (There's yellow tape blocking this path.)"/>
+    <property name="text2">* (Best not to wander too far
+into uncharted territory.)</property>
+   </properties>
+   <polygon points="50,-200 90,-200 40,40 0,40"/>
+  </object>
+ </objectgroup>
+ <layer id="9" name="decal2" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1610612742,1610612749,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1610612742,1610612749,0,0,0,0,0,0,0,0,13,13,13,0,0,
+0,1610612742,1610612749,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1610612742,1610612749,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1610612742,1610612749,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1610612742,1610612749,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1610612742,1610612749,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1610612742,1610612749,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1610612742,1610612749,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1610612742,1610612749,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup color="#7f00ff" id="7" name="markers">
+  <object id="69" name="spawn" x="400" y="320">
+   <point/>
+  </object>
+  <object id="70" name="entry" x="600" y="320">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

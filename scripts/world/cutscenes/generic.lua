@@ -2,14 +2,13 @@ return {
 	-- The inclusion of the below line tells the language server that the first parameter of the cutscene is `WorldCutscene`.
 	-- This allows it to fetch us useful documentation that shows all of the available cutscene functions while writing our cutscenes!
 
+	---@param cutscene WorldCutscene
 	bench = function(cutscene, event)
-		if Game:getFlag("benched") then
+		if event.interact_count > 1 then
 			cutscene:text("* (A bench, [wait:5]for pressing.)")
 		else
 			cutscene:text("* (A standard bench.)")
 			cutscene:text("* (Doesn't look comfortable to\nsit on, [wait:5]let alone sleep on.)")
-
-			Game:setFlag("benched", true)
 		end
 	end,
 
@@ -18,7 +17,7 @@ return {
 	end,
 	
 	fountain = function(cutscene, event)
-		if Game:getFlag("waterfountain") then
+		if event.interact_count > 1 and cutscene:getCharacter("susie") then
 			Assets.playSound("swallow")
 		else
 			if cutscene:getCharacter("susie") then

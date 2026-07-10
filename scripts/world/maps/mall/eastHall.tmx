@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.11" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="30" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="12" nextobjectid="55">
+ <editorsettings>
+  <export target="eastHall.lua" format="lua"/>
+ </editorsettings>
+ <properties>
+  <property name="light" type="bool" value="true"/>
+  <property name="music" value="alley_ambience"/>
+ </properties>
+ <tileset firstgid="1" source="../../tilesets/mall.tsx"/>
+ <tileset firstgid="57" source="../../tilesets/mall_doors.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="30" height="12">
+  <data encoding="csv">
+9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,
+9,9,0,0,9,9,9,43,43,52,9,9,9,9,9,9,9,30,30,30,9,9,9,9,9,9,9,43,43,43,
+9,9,44,43,9,9,9,43,50,43,9,9,9,9,9,9,9,37,30,30,9,9,9,9,9,9,9,50,51,51,
+16,16,30,30,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,16,
+30,30,37,30,30,30,30,30,30,37,30,30,30,30,30,30,30,30,37,37,30,30,30,30,30,30,37,30,30,30,
+29,29,29,36,29,29,29,29,29,29,29,29,29,29,36,29,29,29,29,29,29,29,29,29,29,36,29,29,29,29,
+29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,36,29,29,29,29,29,29,29,29,29,29,
+29,29,36,29,29,29,29,36,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,36,29,29,
+29,29,29,29,29,29,29,29,36,36,29,29,29,29,29,29,29,36,29,29,29,29,29,36,29,29,29,29,29,29,
+30,30,30,30,37,30,30,30,30,30,37,37,37,30,30,30,30,37,30,30,30,30,30,30,30,30,37,30,30,30,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="9" name="a" width="30" height="12">
+  <data encoding="csv">
+0,41,0,0,0,0,0,0,0,0,0,41,0,0,0,0,0,0,0,0,0,41,0,0,0,0,0,0,0,0,
+0,41,0,0,0,0,0,0,0,0,0,41,90,91,0,0,0,6,6,6,0,41,90,91,0,0,0,0,0,0,
+0,41,6,6,0,0,0,0,0,0,0,41,101,102,0,0,0,13,13,13,0,41,101,102,0,0,0,0,0,0,
+0,48,13,13,0,0,0,0,0,0,0,48,112,113,0,0,0,0,0,0,0,48,112,113,0,0,0,0,0,0,
+0,55,0,0,0,0,0,0,0,0,0,55,0,0,0,0,0,0,0,0,0,55,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="decal" width="30" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,89,143,0,0,0,125,126,127,0,0,0,0,0,0,0,125,126,127,0,0,0,0,0,0,0,125,126,127,
+0,0,100,144,123,124,0,136,137,138,0,0,0,0,123,124,0,136,137,138,0,0,0,0,123,124,0,136,137,138,
+0,0,135,139,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="11" name="c" width="30" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,61,62,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,72,73,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,83,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="floormirror" class="objects" visible="0" locked="1">
+  <object id="2" name="floormirror" x="0" y="160" width="1200" height="240"/>
+ </objectgroup>
+ <objectgroup color="#0000ff" id="6" name="collision">
+  <object id="7" x="150" y="120" width="1050" height="40"/>
+  <object id="8" x="0" y="400" width="1200" height="40"/>
+  <object id="35" x="0" y="120" width="90" height="40"/>
+ </objectgroup>
+ <objectgroup color="#ff00ff" id="8" name="objects">
+  <object id="20" name="interactable" x="160" y="120" width="80" height="40">
+   <properties>
+    <property name="text1" value="* (&quot;Chloe's Home.&quot;)"/>
+   </properties>
+  </object>
+  <object id="21" name="interactable" x="480" y="120" width="80" height="40">
+   <properties>
+    <property name="text1_1" value="* (It's locked.)"/>
+   </properties>
+  </object>
+  <object id="22" name="interactable" x="640" y="400" width="80" height="40">
+   <properties>
+    <property name="text1_1" value="* (&quot;Sophie's Home.&quot;)"/>
+   </properties>
+  </object>
+  <object id="23" name="interactable" x="880" y="120" width="80" height="40">
+   <properties>
+    <property name="text1_1" value="* (It's locked.)"/>
+   </properties>
+  </object>
+  <object id="24" name="interactable" x="960" y="120" width="80" height="40">
+   <properties>
+    <property name="text1_1" value="* (&quot;Rebecca's Home.&quot;)"/>
+   </properties>
+  </object>
+  <object id="26" name="npc" x="1120" y="160" width="40" height="40">
+   <properties>
+    <property name="actor" value="bench/down"/>
+    <property name="cutscene" value="generic.bench"/>
+   </properties>
+  </object>
+  <object id="27" name="npc" x="720" y="160" width="40" height="40">
+   <properties>
+    <property name="actor" value="bench/down"/>
+    <property name="cutscene" value="generic.bench"/>
+   </properties>
+  </object>
+  <object id="28" name="npc" x="320" y="160" width="40" height="40">
+   <properties>
+    <property name="actor" value="bench/down"/>
+    <property name="cutscene" value="generic.bench"/>
+   </properties>
+  </object>
+  <object id="30" name="transition" x="1200" y="160" width="40" height="240">
+   <properties>
+    <property name="map" value="mall/cafeOutside"/>
+    <property name="marker" value="entryLeft"/>
+   </properties>
+  </object>
+  <object id="31" name="transition" x="-40" y="160" width="40" height="240">
+   <properties>
+    <property name="map" value="mall/hall"/>
+    <property name="marker" value="right"/>
+   </properties>
+  </object>
+  <object id="32" name="npc" x="640" y="160" width="40" height="40">
+   <properties>
+    <property name="actor" value="plant"/>
+    <property name="cutscene" value="generic.plant"/>
+   </properties>
+  </object>
+  <object id="33" name="npc" x="240" y="160" width="40" height="40">
+   <properties>
+    <property name="actor" value="plant"/>
+    <property name="cutscene" value="generic.plant"/>
+   </properties>
+  </object>
+  <object id="34" name="npc" x="1040" y="160" width="40" height="40">
+   <properties>
+    <property name="actor" value="plant"/>
+    <property name="cutscene" value="generic.plant"/>
+   </properties>
+  </object>
+  <object id="37" name="transition" x="90" y="100" width="60" height="40">
+   <properties>
+    <property name="map" value="mall/chloeEntrance"/>
+    <property name="marker" value="entry"/>
+   </properties>
+  </object>
+  <object id="39" name="npc" x="120" y="380" width="40" height="40">
+   <properties>
+    <property name="actor" value="bench/bottom"/>
+    <property name="cutscene" value="generic.bench"/>
+   </properties>
+  </object>
+  <object id="40" name="npc" x="200" y="380" width="40" height="40">
+   <properties>
+    <property name="actor" value="plant"/>
+    <property name="cutscene" value="generic.plant"/>
+   </properties>
+  </object>
+  <object id="41" name="interactable" x="320" y="400" width="80" height="40">
+   <properties>
+    <property name="text1_1" value="* (It's locked.)"/>
+   </properties>
+  </object>
+  <object id="42" name="interactable" x="240" y="400" width="80" height="40">
+   <properties>
+    <property name="text1_1" value="* (&quot;Vacant.&quot;)"/>
+   </properties>
+  </object>
+  <object id="43" name="npc" x="520" y="380" width="40" height="40">
+   <properties>
+    <property name="actor" value="bench/bottom"/>
+    <property name="cutscene" value="generic.bench"/>
+   </properties>
+  </object>
+  <object id="44" name="npc" x="600" y="380" width="40" height="40">
+   <properties>
+    <property name="actor" value="plant"/>
+    <property name="cutscene" value="generic.plant"/>
+   </properties>
+  </object>
+  <object id="45" name="interactable" x="720" y="400" width="80" height="40">
+   <properties>
+    <property name="text1_1" value="* (It's locked.)"/>
+   </properties>
+  </object>
+  <object id="46" name="interactable" x="560" y="120" width="80" height="40">
+   <properties>
+    <property name="text1_1" value="* (&quot;Vacant.&quot;)"/>
+   </properties>
+  </object>
+  <object id="47" name="npc" x="920" y="380" width="40" height="40">
+   <properties>
+    <property name="actor" value="bench/bottom"/>
+    <property name="cutscene" value="generic.bench"/>
+   </properties>
+  </object>
+  <object id="48" name="npc" x="1000" y="380" width="40" height="40">
+   <properties>
+    <property name="actor" value="plant"/>
+    <property name="cutscene" value="generic.plant"/>
+   </properties>
+  </object>
+  <object id="49" name="interactable" x="1120" y="400" width="80" height="40">
+   <properties>
+    <property name="text1_1" value="* (It's locked.)"/>
+   </properties>
+  </object>
+  <object id="50" name="interactable" x="1040" y="400" width="80" height="40">
+   <properties>
+    <property name="text1_1" value="* (&quot;Vacant.&quot;)"/>
+   </properties>
+  </object>
+  <object id="51" name="darkness" x="40" y="40">
+   <point/>
+  </object>
+  <object id="52" name="darknessSpotlight" x="120" y="110">
+   <properties>
+    <property name="alpha" type="float" value="0.3"/>
+    <property name="count" type="int" value="4"/>
+    <property name="move" type="int" value="4"/>
+    <property name="radius" type="int" value="70"/>
+    <property name="speed" type="float" value="0.3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="53" name="darknessSpotlight" x="340" y="100">
+   <properties>
+    <property name="alpha" type="float" value="0.3"/>
+    <property name="count" type="int" value="4"/>
+    <property name="move" type="int" value="4"/>
+    <property name="radius" type="int" value="80"/>
+    <property name="speed" type="float" value="0.3"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="54" name="darknessSpotlight" x="1140" y="100">
+   <properties>
+    <property name="alpha" type="float" value="0.3"/>
+    <property name="count" type="int" value="4"/>
+    <property name="move" type="int" value="4"/>
+    <property name="radius" type="int" value="80"/>
+    <property name="speed" type="float" value="0.3"/>
+   </properties>
+   <point/>
+  </object>
+ </objectgroup>
+ <layer id="10" name="b" width="30" height="12">
+  <data encoding="csv">
+6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,6,
+13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,13,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,7,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup color="#7f00ff" id="7" name="markers">
+  <object id="15" name="right" x="1160" y="280">
+   <point/>
+  </object>
+  <object id="16" name="left" x="40" y="280">
+   <point/>
+  </object>
+  <object id="25" name="spawn" x="160" y="280">
+   <point/>
+  </object>
+  <object id="38" name="chloe" x="120" y="200">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

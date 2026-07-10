@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.11" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="19" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="14" nextobjectid="65">
+ <editorsettings>
+  <export target="chloeEntrance.lua" format="lua"/>
+ </editorsettings>
+ <properties>
+  <property name="light" type="bool" value="true"/>
+  <property name="music" value="chloe"/>
+ </properties>
+ <tileset firstgid="1" source="../../tilesets/mall.tsx"/>
+ <tileset firstgid="57" source="../../tilesets/mall_doors.tsx"/>
+ <tileset firstgid="201" source="../../tilesets/chloe_room.tsx"/>
+ <layer id="7" name="tiles" width="19" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,20,20,20,20,20,20,20,0,
+0,20,20,20,20,20,20,20,0,0,21,27,27,27,27,27,27,27,0,
+0,27,27,27,27,27,27,27,43,43,28,34,34,34,34,34,34,34,0,
+0,34,34,34,34,34,34,34,43,45,35,51,43,43,43,43,43,43,0,
+0,39,39,39,39,39,40,43,43,43,43,43,43,43,43,43,50,43,0,
+0,39,39,39,39,39,40,43,44,43,43,43,43,43,43,43,43,43,0,
+0,39,39,39,39,39,40,43,43,43,43,43,43,51,43,43,52,43,0,
+0,39,39,39,39,39,40,43,43,43,43,43,45,43,43,43,43,43,0,
+0,39,39,39,39,39,40,50,43,43,43,43,43,43,43,43,43,43,0,
+0,39,39,39,39,39,40,43,43,50,43,43,43,43,44,43,43,52,0,
+0,0,0,0,0,0,0,0,30,30,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="floormirror" class="objects">
+  <object id="42" name="floormirror" x="40" y="200" width="220" height="240"/>
+  <object id="51" name="floormirror" x="320" y="440" width="80" height="40"/>
+  <object id="52" name="floormirror" x="330" y="120" width="60" height="80"/>
+ </objectgroup>
+ <layer id="9" name="decals" width="19" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,2147483652,0,
+0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,6,6,0,216,217,218,218,219,0,0,0,
+0,201,202,203,204,103,205,0,13,13,0,221,222,223,223,224,0,0,0,
+0,206,207,208,209,114,210,0,0,0,0,226,227,0,0,0,0,0,0,
+0,211,212,213,0,0,215,0,0,0,0,226,227,0,0,0,0,0,0,
+0,0,0,0,0,0,215,0,0,0,0,228,229,0,0,0,0,0,0,
+0,0,0,0,0,0,214,0,0,0,0,220,225,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1073741828,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3221225476,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="13" name="d" width="19" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,89,143,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,100,144,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,135,139,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="12" name="c" width="19" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,94,2147483742,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,105,2147483753,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,116,2147483764,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup color="#0000ff" id="3" name="collision">
+  <object id="43" x="120" y="200" width="120" height="40"/>
+  <object id="44" x="0" y="260" width="40" height="180"/>
+  <object id="45" x="40" y="440" width="280" height="40"/>
+  <object id="46" x="400" y="440" width="320" height="40"/>
+  <object id="47" x="720" y="160" width="40" height="280"/>
+  <object id="48" x="640" y="120" width="80" height="40"/>
+  <object id="49" x="390" y="160" width="50" height="40"/>
+  <object id="53" x="240" y="200" width="40" height="160"/>
+  <object id="54" x="40" y="220" width="80" height="40"/>
+  <object id="55" x="280" y="160" width="50" height="40"/>
+  <object id="58" x="440" y="150" width="200" height="40"/>
+  <object id="59" x="440" y="190" width="50" height="150"/>
+ </objectgroup>
+ <objectgroup color="#7f00ff" id="5" name="markers">
+  <object id="41" name="entry" x="360" y="460">
+   <point/>
+  </object>
+  <object id="50" name="spawn" x="360" y="400">
+   <point/>
+  </object>
+  <object id="61" name="top" x="360" y="220">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff00ff" id="6" name="objects">
+  <object id="40" name="transition" x="320" y="480" width="80" height="40">
+   <properties>
+    <property name="map" value="mall/eastHall"/>
+    <property name="marker" value="chloe"/>
+   </properties>
+  </object>
+  <object id="56" name="interactable" x="120" y="200" width="80" height="40">
+   <properties>
+    <property name="text1" value="* (A sink to wash your sorrows away.)"/>
+   </properties>
+  </object>
+  <object id="57" name="interactable" x="40" y="220" width="80" height="40">
+   <properties>
+    <property name="text1_1" value="* (Why do they call it oven when you of in the cold food of out hot eat the food?)"/>
+    <property name="text2_1" value="* (What?)"/>
+   </properties>
+  </object>
+  <object id="60" name="transition" x="330" y="140" width="60" height="40">
+   <properties>
+    <property name="map" value="mall/chloeUpstairs"/>
+    <property name="marker" value="entry"/>
+   </properties>
+  </object>
+  <object id="62" name="npc" x="680" y="160" width="40" height="40">
+   <properties>
+    <property name="actor" value="plant"/>
+    <property name="cutscene" value="generic.plant"/>
+   </properties>
+  </object>
+  <object id="64" name="interactable" x="490" y="340">
+   <properties>
+    <property name="text1" value="* (A comfortable-looking couch.)"/>
+   </properties>
+   <polygon points="0,0 -50,0 -50,-190 150,-190 150,-150 0,-150"/>
+  </object>
+ </objectgroup>
+ <layer id="11" name="b" width="19" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>

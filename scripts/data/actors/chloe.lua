@@ -16,7 +16,7 @@ function actor:init()
 
 	self.voice = "chloe"
     self.portrait_path = "face/chloe dw"
-    self.portrait_offset = {-8,0}
+    self.portrait_offset = {-8,12}
 
 	self.animations = {
 		["battle/idle"] = {"battle/idle",1/6,true}

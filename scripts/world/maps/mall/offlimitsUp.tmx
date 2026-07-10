@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.11" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="9" nextobjectid="63">
+ <editorsettings>
+  <export target="offlimitsUp.lua" format="lua"/>
+ </editorsettings>
+ <properties>
+  <property name="light" type="bool" value="true"/>
+  <property name="music" value="alley_ambience"/>
+ </properties>
+ <tileset firstgid="1" source="../../tilesets/mall.tsx"/>
+ <tileset firstgid="57" source="../../tilesets/mall_doors.tsx"/>
+ <layer id="1" name="Tile Layer 1" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,37,29,29,29,29,30,0,0,0,0,0,
+0,0,0,0,0,30,29,29,29,36,30,0,0,0,0,0,
+0,0,0,0,0,30,29,36,29,29,37,0,0,0,0,0,
+0,0,0,0,0,30,29,29,29,29,30,0,0,0,0,0,
+0,0,0,0,0,37,29,29,29,29,30,0,0,0,0,0,
+0,0,0,0,0,37,36,29,29,29,30,0,0,0,0,0,
+0,0,0,0,0,30,29,29,36,29,30,0,0,0,0,0,
+0,0,0,0,0,30,29,29,29,29,30,0,0,0,0,0,
+0,0,0,0,0,30,29,29,29,29,37,0,0,0,0,0,
+0,0,0,0,0,37,29,29,29,36,30,0,0,0,0,0,
+0,0,0,0,0,30,29,29,29,29,30,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="decal" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,6,6,6,6,6,6,0,0,0,0,0,
+0,0,0,0,0,13,13,13,13,13,13,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="floormirror" class="objects">
+  <object id="46" name="floormirror" x="200" y="40" width="240" height="440"/>
+ </objectgroup>
+ <objectgroup color="#0000ff" id="6" name="collision">
+  <object id="34" x="160" y="200" width="40" height="280"/>
+  <object id="35" x="440" y="200" width="40" height="280"/>
+  <object id="59" x="200" y="160" width="240" height="40"/>
+ </objectgroup>
+ <objectgroup color="#ff00ff" id="8" name="objects">
+  <object id="56" name="transition" x="200" y="480" width="240" height="40">
+   <properties>
+    <property name="map" value="mall/spawn"/>
+    <property name="marker" value="top"/>
+   </properties>
+  </object>
+  <object id="60" name="interactable" x="200" y="160" width="240" height="40">
+   <properties>
+    <property name="text1_1" value="* (There's yellow tape blocking this path.)"/>
+    <property name="text1_2">* (Best not to wander too far
+into uncharted territory.)</property>
+   </properties>
+  </object>
+  <object id="61" name="npc" x="300" y="180" width="40" height="40">
+   <properties>
+    <property name="actor" value="tapenorth"/>
+   </properties>
+  </object>
+  <object id="62" name="darkness" x="40" y="40">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#7f00ff" id="7" name="markers">
+  <object id="44" name="spawn" x="320" y="320">
+   <point/>
+  </object>
+  <object id="45" name="entry" x="320" y="460">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

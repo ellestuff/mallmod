@@ -6,6 +6,12 @@ function Mod:init()
 	HookSystem.hook(EnemyBattler, "addMercy", function(orig, self, amount)
 		orig(self, amount*(self.charmed and 1.5 or 1))
 	end)
+
+	Game:registerEvent("darknessSpotlight", function(data)return darknessSpotlight(data.x, data.y, data.properties, data.id) end)
+	Game:registerEvent("floormirror", function(data) return floormirror(data.x, data.y, {data.width, data.height}, data.properties) end)
+	Game:registerEvent("darkness", function(data) return darkness(data.properties) end)
+	Game:registerEvent("DarkDoor", function(data) return DarkDoor(data.x, data.y, data.width, data.height) end)
+	Game:registerEvent("DarkLighting", function(data) return DarkLighting() end)
 end
 
 function Mod:load(data, is_new_file, index)

@@ -1,0 +1,125 @@
+{
+    "maps": [
+        {
+            "fileName": "maps/mall/room1.tmx",
+            "height": 960,
+            "width": 800,
+            "x": 360,
+            "y": 0
+        },
+        {
+            "fileName": "maps/mall/room2.tmx",
+            "height": 480,
+            "width": 800,
+            "x": 1240,
+            "y": -120
+        },
+        {
+            "fileName": "maps/mall/hall.tmx",
+            "height": 1040,
+            "width": 1360,
+            "x": -1240,
+            "y": -40
+        },
+        {
+            "fileName": "maps/mall/cafeOutside.tmx",
+            "height": 560,
+            "width": 640,
+            "x": -1960,
+            "y": 80
+        },
+        {
+            "fileName": "maps/mall/cafe.tmx",
+            "height": 800,
+            "width": 640,
+            "x": -1960,
+            "y": -760
+        },
+        {
+            "fileName": "maps/mall/lab_lw.tmx",
+            "height": 480,
+            "width": 640,
+            "x": -1240,
+            "y": -1080
+        },
+        {
+            "fileName": "maps/mall/spawn.tmx",
+            "height": 480,
+            "width": 1600,
+            "x": -2560,
+            "y": 1400
+        },
+        {
+            "fileName": "maps/mall/southHall.tmx",
+            "height": 800,
+            "width": 640,
+            "x": -880,
+            "y": 1080
+        },
+        {
+            "fileName": "maps/mall/eastHall.tmx",
+            "height": 480,
+            "width": 1200,
+            "x": 200,
+            "y": 200
+        },
+        {
+            "fileName": "maps/mall/chloeEntrance.tmx",
+            "height": 480,
+            "width": 760,
+            "x": 640,
+            "y": -360
+        },
+        {
+            "fileName": "maps/mall/offlimitsLeft.tmx",
+            "height": 480,
+            "width": 640,
+            "x": -3280,
+            "y": 1360
+        },
+        {
+            "fileName": "maps/mall/offlimitsUp.tmx",
+            "height": 480,
+            "width": 640,
+            "x": -2600,
+            "y": 840
+        },
+        {
+            "fileName": "maps/mall/void.tmx",
+            "height": 480,
+            "width": 640,
+            "x": -2600,
+            "y": 1960
+        },
+        {
+            "fileName": "maps/mall/chloeUpstairs.tmx",
+            "height": 480,
+            "width": 760,
+            "x": 640,
+            "y": -840
+        },
+        {
+            "fileName": "maps/mall/northHall.tmx",
+            "height": 480,
+            "width": 640,
+            "x": -1240,
+            "y": -560
+        },
+        {
+            "fileName": "maps/mall/marieRoom.tmx",
+            "height": 480,
+            "width": 640,
+            "x": -520,
+            "y": -560
+        },
+        {
+            "fileName": "maps/mall/marieBackrooms.tmx",
+            "height": 480,
+            "width": 640,
+            "x": -520,
+            "y": -1080
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}

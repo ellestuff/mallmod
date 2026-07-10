@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.11" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="16" height="14" tilewidth="40" tileheight="40" infinite="0" nextlayerid="13" nextobjectid="53">
+ <editorsettings>
+  <export target="cafeOutside.lua" format="lua"/>
+ </editorsettings>
+ <properties>
+  <property name="light" type="bool" value="true"/>
+  <property name="music" value="alley_ambience"/>
+ </properties>
+ <tileset firstgid="1" source="../../tilesets/mall.tsx"/>
+ <tileset firstgid="57" source="../../tilesets/mall_doors.tsx"/>
+ <layer id="1" name="tiles" width="16" height="14">
+  <data encoding="csv">
+9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,
+9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,
+9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,
+9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,
+56,9,9,39,39,39,39,9,39,118,119,120,118,9,9,56,
+56,9,9,39,39,39,39,9,39,129,130,131,129,9,9,56,
+16,16,16,39,39,39,39,16,16,16,16,16,16,16,16,56,
+30,30,37,30,30,30,30,30,37,30,30,30,30,30,30,37,
+29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,29,
+29,29,29,29,29,36,29,29,29,29,29,29,29,36,29,29,
+29,36,29,29,29,29,29,29,29,29,29,29,29,29,29,29,
+29,29,29,29,29,29,29,29,29,36,36,29,29,29,29,29,
+30,30,37,37,30,30,30,30,30,30,30,30,30,37,30,30,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="floormirror" class="objects">
+  <object id="37" name="floormirror" x="0" y="280" width="640" height="240"/>
+ </objectgroup>
+ <layer id="2" name="decal" width="16" height="14">
+  <data encoding="csv">
+0,0,41,0,0,0,0,0,0,0,0,0,0,0,41,0,
+0,0,41,0,0,0,0,0,0,0,0,0,0,0,41,0,
+0,0,41,0,0,0,0,0,0,0,0,0,0,0,41,0,
+0,0,41,0,0,0,0,0,0,0,0,0,0,0,41,0,
+92,0,41,92,92,92,92,0,92,92,92,92,92,0,41,92,
+92,0,41,92,92,92,92,0,92,92,92,92,92,0,41,92,
+0,0,48,92,92,92,92,0,0,0,0,0,0,0,48,92,
+0,0,55,0,0,0,0,0,0,0,0,0,0,54,55,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="12" name="b" width="16" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+6,0,0,6,6,6,6,0,6,6,6,6,6,0,0,6,
+13,0,0,13,13,13,13,0,13,13,13,13,13,0,0,13,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="9" name="door" width="16" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+127,0,0,57,58,59,60,0,125,126,126,126,127,0,0,57,
+138,0,0,68,69,70,71,0,136,137,137,137,138,0,0,68,
+0,0,0,79,80,81,82,0,0,0,0,0,0,0,0,79,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup color="#0000ff" id="3" name="collision" opacity="0.5">
+  <object id="7" x="0" y="240" width="130" height="40"/>
+  <object id="12" x="0" y="520" width="640" height="40"/>
+  <object id="27" x="270" y="240" width="370" height="40"/>
+  <object id="51" x="130" y="240" width="140" height="40"/>
+ </objectgroup>
+ <objectgroup color="#ff00ff" id="5" name="objects">
+  <object id="25" name="transition" x="-40" y="280" width="40" height="240">
+   <properties>
+    <property name="map" value="mall/eastHall"/>
+    <property name="marker" value="right"/>
+   </properties>
+  </object>
+  <object id="26" name="transition" x="130" y="200" width="140" height="40">
+   <properties>
+    <property name="map" value="mall/cafe"/>
+    <property name="marker" value="entry"/>
+   </properties>
+  </object>
+  <object id="30" name="transition" x="640" y="280" width="40" height="240">
+   <properties>
+    <property name="map" value="mall/hall"/>
+    <property name="marker" value="left"/>
+   </properties>
+  </object>
+  <object id="38" name="npc" x="120" y="500" width="40" height="40">
+   <properties>
+    <property name="actor" value="bench/bottom"/>
+    <property name="cutscene" value="generic.bench"/>
+   </properties>
+  </object>
+  <object id="39" name="npc" x="480" y="500" width="40" height="40">
+   <properties>
+    <property name="actor" value="bench/bottom"/>
+    <property name="cutscene" value="generic.bench"/>
+   </properties>
+  </object>
+  <object id="40" name="npc" x="300" y="140" width="40" height="40">
+   <properties>
+    <property name="actor" value="cafesign"/>
+   </properties>
+  </object>
+  <object id="44" name="npc" x="480" y="280" width="40" height="40">
+   <properties>
+    <property name="actor" value="bench/down"/>
+    <property name="cutscene" value="generic.bench"/>
+   </properties>
+  </object>
+  <object id="45" name="npc" x="300" y="280" width="40" height="40">
+   <properties>
+    <property name="actor" value="plant"/>
+    <property name="cutscene" value="generic.plant"/>
+   </properties>
+  </object>
+  <object id="46" name="npc" x="300" y="500" width="40" height="40">
+   <properties>
+    <property name="actor" value="plant"/>
+    <property name="cutscene" value="generic.plant"/>
+   </properties>
+  </object>
+  <object id="48" name="interactable" x="600" y="240" width="40" height="40">
+   <properties>
+    <property name="text1_1" value="* (It's locked.)"/>
+   </properties>
+  </object>
+  <object id="49" name="interactable" x="320" y="200" width="200" height="40">
+   <properties>
+    <property name="text1_1" value="* (You can see someone waving at you through the window, [wait:5]beckoning you in.)"/>
+   </properties>
+  </object>
+  <object id="50" name="darkness" x="40" y="40">
+   <point/>
+  </object>
+  <object id="52" name="interactable" x="120" y="240" width="160" height="40">
+   <properties>
+    <property name="text1_1" value="* (It's locked.)"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="11" name="a" width="16" height="14">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,7,7,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup color="#7f00ff" id="4" name="markers">
+  <object id="5" name="spawn" x="320" y="400">
+   <point/>
+  </object>
+  <object id="8" name="entryLeft" x="40" y="400">
+   <point/>
+  </object>
+  <object id="16" name="entryRight" x="600" y="400">
+   <point/>
+  </object>
+  <object id="31" name="entryCafe" x="200" y="320">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

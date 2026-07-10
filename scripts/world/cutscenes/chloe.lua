@@ -8,7 +8,7 @@ return {
 		Game.world.music:fade(1,2)
 		cutscene:wait(2)
 		cutscene:setSpeaker("chloe")
-		
+
 		cutscene:text("[speed:0.5]* It all started with a birthday gift.")
 		cutscene:text("[speed:0.5]* Sarah had been working on it in secret.")
 

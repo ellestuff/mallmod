@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.11" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="16" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="12" nextobjectid="45">
+ <editorsettings>
+  <export target="marieRoom.lua" format="lua"/>
+ </editorsettings>
+ <properties>
+  <property name="light" type="bool" value="true"/>
+  <property name="music" value="alley_ambience"/>
+ </properties>
+ <tileset firstgid="1" source="../../tilesets/mall.tsx"/>
+ <tileset firstgid="57" source="../../tilesets/mall_doors.tsx"/>
+ <tileset firstgid="201" source="../../tilesets/chloe_room.tsx"/>
+ <layer id="1" name="tiles" width="16" height="12">
+  <data encoding="csv">
+0,0,8,9,9,29,29,9,9,9,9,9,9,10,0,0,
+0,0,8,9,9,29,29,9,9,9,9,9,9,10,0,0,
+0,0,15,16,16,31,31,16,16,16,16,16,16,17,0,0,
+0,0,31,31,31,31,31,31,38,31,31,31,31,31,0,0,
+0,0,31,29,29,29,29,29,29,29,36,29,29,31,0,0,
+0,0,31,29,36,29,29,29,29,29,29,29,29,38,0,0,
+0,0,31,29,29,29,29,29,29,29,29,29,29,31,0,0,
+0,0,38,29,29,36,29,29,29,29,29,29,29,31,0,0,
+0,0,31,29,29,29,29,29,29,29,29,36,29,31,0,0,
+0,0,31,36,29,29,29,29,29,29,29,29,29,31,0,0,
+0,0,31,31,31,31,38,31,31,31,31,31,31,31,0,0,
+0,0,0,0,0,0,31,31,38,31,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="floormirror" class="objects" visible="0" locked="1">
+  <object id="27" name="floormirror" x="80" y="120" width="480" height="320"/>
+  <object id="36" name="floormirror" x="240" y="440" width="160" height="40"/>
+ </objectgroup>
+ <layer id="11" name="b" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,13,13,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="10" name="a" width="16" height="12">
+  <data encoding="csv">
+0,0,0,0,0,89,143,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,100,144,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,135,139,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="decals" width="16" height="12">
+  <data encoding="csv">
+0,0,4,0,0,61,62,0,0,0,0,0,0,2147483652,0,0,
+0,0,0,0,0,72,73,0,0,0,0,0,0,0,0,0,
+0,0,0,0,2147483741,83,84,0,0,0,0,0,0,0,0,0,
+0,0,0,0,2147483863,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,2147483752,103,103,103,103,103,103,205,0,0,0,0,
+0,0,0,0,2147483763,114,114,114,114,114,114,115,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,1073741828,0,0,0,0,0,0,0,0,0,0,3221225476,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup color="#0000ff" id="5" name="collision">
+  <object id="1" x="160" y="120" width="40" height="120"/>
+  <object id="4" x="40" y="120" width="40" height="320"/>
+  <object id="30" x="200" y="180" width="280" height="60"/>
+  <object id="37" x="560" y="120" width="40" height="320"/>
+  <object id="38" x="80" y="80" width="130" height="40"/>
+  <object id="39" x="270" y="80" width="290" height="40"/>
+  <object id="40" x="80" y="440" width="160" height="40"/>
+  <object id="41" x="400" y="440" width="160" height="40"/>
+ </objectgroup>
+ <objectgroup color="#ff00ff" id="3" name="objects">
+  <object id="5" name="transition" x="210" y="80" width="60" height="40">
+   <properties>
+    <property name="map" value="mall/marieBackrooms"/>
+    <property name="marker" value="entry"/>
+   </properties>
+  </object>
+  <object id="33" name="transition" x="240" y="480" width="160" height="40">
+   <properties>
+    <property name="map" value="mall/northHall"/>
+    <property name="marker" value="doors"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup color="#7f00ff" id="4" name="markers">
+  <object id="8" name="spawn" x="320" y="360">
+   <point/>
+  </object>
+  <object id="34" name="doors" x="240" y="160">
+   <point/>
+  </object>
+  <object id="35" name="entry" x="320" y="460">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

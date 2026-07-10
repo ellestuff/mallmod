@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.11" tiledversion="1.12.2" orientation="orthogonal" renderorder="right-down" width="19" height="12" tilewidth="40" tileheight="40" infinite="0" nextlayerid="13" nextobjectid="80">
+ <editorsettings>
+  <export target="chloeUpstairs.lua" format="lua"/>
+ </editorsettings>
+ <properties>
+  <property name="light" type="bool" value="true"/>
+  <property name="music" value="chloe"/>
+ </properties>
+ <tileset firstgid="1" source="../../tilesets/mall.tsx"/>
+ <tileset firstgid="57" source="../../tilesets/mall_doors.tsx"/>
+ <tileset firstgid="145" source="../../tilesets/chloe_room.tsx"/>
+ <layer id="7" name="tiles" width="19" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,20,0,
+0,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,27,0,
+0,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,34,0,
+0,43,43,50,43,43,43,45,43,43,43,51,43,43,43,43,43,43,0,
+0,51,43,43,43,43,43,43,43,43,43,43,43,43,43,43,45,43,0,
+0,43,43,43,43,43,43,43,43,43,50,43,43,43,44,43,43,43,0,
+0,43,52,43,43,43,44,43,43,43,43,43,43,43,43,52,43,43,0,
+0,0,0,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,56,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="10" name="a" width="19" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,90,91,0,0,0,0,0,0,0,90,91,0,0,0,0,0,
+0,0,0,101,102,123,124,0,0,0,0,0,101,102,123,124,0,0,0,
+0,0,0,112,113,0,0,0,0,0,0,0,112,113,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,22,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,22,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="floormirror" class="objects" visible="0" locked="1">
+  <object id="66" name="floormirror" x="120" y="360" width="80" height="80"/>
+ </objectgroup>
+ <layer id="9" name="decals" width="19" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2147483652,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1073741828,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3221225476,0,
+0,0,0,1073741837,1073741837,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,1073741830,1073741830,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="12" name="c" width="19" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup color="#0000ff" id="3" name="collision">
+  <object id="61" x="40" y="160" width="680" height="40"/>
+  <object id="62" x="720" y="200" width="40" height="160"/>
+  <object id="63" x="200" y="360" width="520" height="40"/>
+  <object id="64" x="40" y="360" width="80" height="40"/>
+  <object id="65" x="0" y="200" width="40" height="160"/>
+ </objectgroup>
+ <objectgroup color="#7f00ff" id="5" name="markers">
+  <object id="69" name="entry" x="160" y="360">
+   <point/>
+  </object>
+  <object id="70" name="spawn" x="160" y="280">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff00ff" id="6" name="objects">
+  <object id="67" name="transition" x="120" y="400" width="80" height="40">
+   <properties>
+    <property name="map" value="mall/chloeEntrance"/>
+    <property name="marker" value="top"/>
+   </properties>
+  </object>
+  <object id="71" name="interactable" x="120" y="160" width="80" height="40">
+   <properties>
+    <property name="text1_1" value="* (It's locked.)"/>
+   </properties>
+  </object>
+  <object id="72" name="interactable" x="200" y="160" width="80" height="40">
+   <properties>
+    <property name="text1_1" value="* (&quot;Bedroom.&quot;)"/>
+   </properties>
+  </object>
+  <object id="73" name="interactable" x="480" y="160" width="80" height="40">
+   <properties>
+    <property name="text1" value="* (It's locked.)"/>
+   </properties>
+  </object>
+  <object id="74" name="interactable" x="560" y="160" width="80" height="40">
+   <properties>
+    <property name="text1_1" value="* (&quot;Guest Room. [wait:5]Currently closed for renovations.&quot;)"/>
+   </properties>
+  </object>
+  <object id="75" name="npc" x="680" y="200" width="40" height="40">
+   <properties>
+    <property name="actor" value="plant"/>
+    <property name="cutscene" value="generic.plant"/>
+   </properties>
+  </object>
+  <object id="76" name="npc" x="320" y="200" width="40" height="40">
+   <properties>
+    <property name="actor" value="plant"/>
+    <property name="cutscene" value="generic.plant"/>
+   </properties>
+  </object>
+  <object id="77" name="npc" x="40" y="200" width="40" height="40">
+   <properties>
+    <property name="actor" value="plant"/>
+    <property name="cutscene" value="generic.plant"/>
+   </properties>
+  </object>
+  <object id="78" name="interactable" x="560" y="360" width="80" height="40">
+   <properties>
+    <property name="text1">* (There's a bathroom here.)[wait:10]
+* (It's also locked.)</property>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="11" name="b" width="19" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>
