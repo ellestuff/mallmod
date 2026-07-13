@@ -39,7 +39,9 @@ function Flasque:init()
 
 	-- Text randomly displayed at the bottom of the screen each turn
 	self.text = {
-		"* Flasque is testing different meows.",
+		"* Flasque is drinking from the vials.",
+		"* Flasque is experimenting with different meows.",
+		"* Flasque considers switching to subtractive color mixing.",
 	}
 	-- Text displayed at the bottom of the screen when the enemy has low health
 	self.low_health_text = "* Flasque looks like it's about to spill over."
@@ -48,6 +50,8 @@ function Flasque:init()
 	for i, v in ipairs(actColours) do
 		self:registerAct("Fill "..v, "Fill up\n"..v.." vial\nfor MERCY")
 	end
+
+	self:registerAct("Fill Rainbow", "Fill all\nvials for\nMERCY", {"susie","chloe"})
 end
 
 local function xact(obj, battler)
@@ -68,7 +72,14 @@ local function xact(obj, battler)
 end
 
 function Flasque:onAct(battler, name)
-	if name:sub(1,4) == "Fill" then
+	if name == "Fill Rainbow" then
+		self.dialogue_override = "@w@"
+		self.wave_override = "flasque/fillrainbow"
+
+		return {
+			"* Everyone offers to fill Flasque's vials!"
+		}
+	elseif name:sub(1,4) == "Fill" then
 		self.dialogue_override = ">w<"
 
 		local c
@@ -102,9 +113,8 @@ end
 
 function Flasque:update()
 	super.update(self)
-
 	
-	self.actor.flasqueFill = self.mercy/100
+	self.actor.flasqueFill = (self.mercy+self.temporary_mercy)/100
 end
 
 return Flasque

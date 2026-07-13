@@ -16,6 +16,7 @@ function FlasqueBullet:init(x, y, vel, grav, tx, ty)
 	ty = ty or Game.battle.soul.y
 
 	-- https://discord.com/channels/899153719248191538/1520503882373922998/1520566550392864839
+	-- (projectile motion by @kotonesdiary)
 	vel = vel or 8
 	grav = grav or .5
 	local tx = -math.abs(tx - x)

@@ -228,7 +228,7 @@ return {
 		
 		local done = false
 		local endData = nil
-		local transition = DarkTransition(280, { movement_table = { .3, -.3, 0 } }) -- The movement table is very fickle... change it in increments of 0.5 if it doesnt look right
+		local transition = DarkTransition(320, { movement_table = { .3, -.3, 0 } }) -- The movement table is very fickle... change it in increments of 0.5 if it doesnt look right
 		transition.rx1, transition.ry1 = Game.world:localToScreenPos(129, 71)
 		transition.rx2, transition.ry2 = Game.world:localToScreenPos(191, 120)
 		transition.loading_callback = function()
@@ -265,7 +265,26 @@ return {
 			char.visible = true
 			char:setFacing("down")
 		end
+		
+		chloe = cutscene:getCharacter("chloe")
+		local a = true
+		local dirs = {"up", "left", "right", "down"}
+		local t = 0
+		cutscene:during(function()
+			t = t + DTMULT
+			if t > 5 then
+				t = t%5
+				local d = chloe.facing
+				while chloe.facing == d do
+					d = dirs[love.math.random(4)]
+				end
+				chloe:setFacing(d)
+			end
+			return a
+		end)
 		cutscene:text("* what huh what what huh what the huh the how where am i what the hell[next]","surprised","chloe")
+		a = false
+		chloe:setFacing("down")
 		cutscene:wait(1)
 		cutscene:text("* What?","fear","chloe")
 		cutscene:text("[instant]* What? [stopinstant]The Hell?","fear","chloe")

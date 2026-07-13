@@ -12,6 +12,7 @@ function Mod:init()
 	Game:registerEvent("darkness", function(data) return darkness(data.properties) end)
 	Game:registerEvent("DarkDoor", function(data) return DarkDoor(data.x, data.y, data.width, data.height) end)
 	Game:registerEvent("DarkLighting", function(data) return DarkLighting() end)
+	Game:registerEvent("mirrorfixed", function(data) return mirrorfixed(data.x, data.y, {data.width, data.height}, data.properties) end)
 end
 
 function Mod:load(data, is_new_file, index)
@@ -22,6 +23,10 @@ function Mod:load(data, is_new_file, index)
 		inv:addItem("darkburger")
 		inv:addItem("darkburger")
 		inv:addItem("darkburger")
+		inv:addItem("claimbclaws")
+		inv:addItem("cell_phone")
+
+		
 	end
 end
 

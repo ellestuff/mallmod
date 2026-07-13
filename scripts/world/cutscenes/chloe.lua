@@ -1,5 +1,53 @@
 return {
 	---@param cutscene WorldCutscene
+	mirror = function(cutscene, event)
+		cutscene:detachCamera()
+		cutscene:detachFollowers()
+		cutscene:setSpeaker("chloe")
+
+		local kris = cutscene:getCharacter("kris")
+		local susie = cutscene:getCharacter("susie")
+		local chloe = cutscene:getCharacter("chloe")
+		local ex,ey = cutscene:getMarker("mirrorStand")
+		kris:walkTo(ex + 60, ey + 40, .5)
+		susie:walkTo(ex - 60, ey + 40, 1)
+		chloe:walkTo(ex, ey, 1.5)
+		cutscene:wait(.5)
+		kris:setFacing("up")
+		cutscene:wait(.5)
+		susie:setFacing("up")
+		cutscene:wait(.5)
+		chloe:setFacing("up")
+		cutscene:wait(.5)
+		cutscene:text("* Cat ears...", "sad")
+		cutscene:text("* Why did it have to be cat ears...", "sad")
+		
+		
+		cutscene:text("* You got a problem with cats?", "nervous", "susie")
+		cutscene:wait(.5)
+		cutscene:text("* You could say that...", "smile_closed")
+		cutscene:wait(.5)
+		cutscene:text("* ...", "sad")
+		cutscene:text("* I think I'm gonna go on ahead.", "smile_closed")
+
+		chloe:walkTo(1080,chloe.y,1.5)
+		cutscene:wait(.5)
+		susie:setFacing("right")
+		cutscene:text("* Chloe, [wait:5]wait!", "surprise_frown", "susie")
+		susie:walkTo(1080,susie.y,1)
+		
+		cutscene:wait(1)
+		Game:removePartyMember("chloe")
+		Game:removePartyMember("susie")
+		Game:removeFollower("chloe")
+		Game:removeFollower("susie")
+		cutscene:attachCamera(1)
+		chloe:remove()
+		susie:remove()
+		cutscene:attachFollowers(4)
+	end,
+
+	---@param cutscene WorldCutscene
 	furry_flashback = function(cutscene, event)
 		cutscene:fadeOut(2)
 		Game.world.music:fade(0,2)

@@ -10,6 +10,8 @@ function FlasqueVialController:init(timer, width, height)
 	self.timerLen = timer or 100
 	self.width = width or 0
 	self.height = height or 0
+
+	self.rainbow = false
 end
 
 function FlasqueVialController:update()
@@ -34,19 +36,32 @@ function FlasqueVialController:update()
 		-- Collide with bullets
 		if self.bullet_stack then
 			for j, v2 in ipairs(self.bullet_stack) do
-				if v:collidesWith(v2) and v2.flasque == v.flasque and not v2:isRemoved() then
-					
-					local m = self.enemy.mercy
-					self.enemy:addMercy(8)
-					m = self.enemy.mercy - m
+				if v:collidesWith(v2) and (v2.flasque == v.flasque or self.rainbow) and not v2:isRemoved() then
+					if self.rainbow then
+						v.flasqueFill = v.flasqueFill + .04
+						
+					else
+					end
+					local m = self.enemy.temporary_mercy
+					self.enemy:addTemporaryMercy(self.rainbow and 4 or 8)
+					m = self.enemy.temporary_mercy - m
 
-					self.enemy.actor.flasqueColour[v.flasque] = self.enemy.actor.flasqueColour[v.flasque] + m/2
+					for i,v in ipairs(v2.color) do
+						self.enemy.actor.flasqueColour[i] = self.enemy.actor.flasqueColour[i] + v*m/2
+					end
+					
 
 					v2:remove()
 				end
 			end
 		end
-		v.flasqueFill = self.enemy.actor.flasqueColour[v.flasque]/100
+		
+		if self.rainbow then
+			local r,g,b = ColorUtils.HSLToRGB((i/#self.children+Kristal.getTime()/10)%1,1,0.5)
+			v.flasqueColour = {r,g,b,1}
+		else
+			v.flasqueFill = self.enemy.actor.flasqueColour[v.flasque]/50
+		end
 	end
 
 	self.frameTimer = (self.frameTimer + DTMULT)%self.timerLen

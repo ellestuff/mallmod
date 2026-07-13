@@ -1,0 +1,34 @@
+{
+    "maps": [
+        {
+            "fileName": "maps/darkworld_start/start.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "fileName": "maps/darkworld_start/climb_start.tmx",
+            "height": 880,
+            "width": 680,
+            "x": 40,
+            "y": -920
+        },
+        {
+            "fileName": "maps/darkworld_start/start_treasure.tmx",
+            "height": 480,
+            "width": 640,
+            "x": 760,
+            "y": -720
+        },
+        {
+            "fileName": "maps/darkworld_start/surface_reveal.tmx",
+            "height": 800,
+            "width": 1440,
+            "x": 0,
+            "y": -1840
+        }
+    ],
+    "onlyShowAdjacentMaps": false,
+    "type": "world"
+}

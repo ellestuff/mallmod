@@ -8,7 +8,7 @@ function spell:init()
 	-- Battle description
 	self.effect = "Stronger\nACTs"
 	-- Menu description
-	self.description = "Convince all standard enemies for a stackable\n+50% increase in MERCY gained from ACTs."
+	self.description = "Convince all standard enemies for a\n+50% increase in MERCY gained from ACTs."
 
 	-- TP cost
 	self.cost = 24
@@ -28,11 +28,11 @@ function spell:getCastMessage(user, target)
 	end
 	
 	if text == 2 then
-		return "* "..user.chara:getName().." "..self:getCastName().."ed the enemies!\n* MERCY now increases by an\nadditional 50%!"
+		return "* "..user.chara:getName().." cast "..self:getCastName().."!\n* MERCY now increases by 50% more!"
 	elseif text == 1 then
-		return "* "..user.chara:getName().." tried to "..self:getCastName().." the enemies...\n* But they didn't care."
+		return "* "..user.chara:getName().." tried casting "..self:getCastName().."...\n* But the enemies didn't care."
 	else
-		return "* "..user.chara:getName().." tried to "..self:getCastName().." the enemies...\n* But they were all already "..self:getCastName().."ed!"
+		return "* "..user.chara:getName().." tried casting"..self:getCastName().."...\n* But the enemies were all already "..self:getCastName().."ed!"
 	end
 end
 
